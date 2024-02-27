@@ -321,6 +321,73 @@ ul{
     padding: 32px 0;
     text-align: center;
 }
+.social-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+}
+#inst {
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inst:hover,
+#inst:focus {
+    background-color: #404bbf;
+}
+#twit {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twit:hover,
+#twit:focus {
+    background-color: #404bbf;
+}
+#facebook {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#facebook:hover,
+#facebook:focus {
+    background-color: #404bbf;
+}
+#linked {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#linked:hover,
+#linked:focus {
+    background-color: #404bbf;
+}
+.social-icon {
+    fill: #f4f4fd;
+}
 .secfoot {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -362,6 +429,9 @@ img {
 }
 .item:first-child {
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 h1 {
     margin-left: auto;

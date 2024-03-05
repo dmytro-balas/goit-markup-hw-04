@@ -428,11 +428,40 @@ img {
 .item h3 {
     margin-bottom: 8px;
 }
-.item {
+.ourteam .item:first-child {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.ourteam .team-member>div[class*="container-"] {
+    padding: 32px 0;
+}
+.ourteam .social-team {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.ourteam .social-team li:first-child {
+    width: 40px;
+    height: 40px;
+}
+.ourteam .social-team li:first-child a {
+    width: 100%;
+    height: 100%;
+    background-color: var(--social-link-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ourteam .social-team li:first-child a:hover,
+.ourteam .social-team li:first-child a:focus {
+    background-color: #404bbf;
+}
+
+.ourteam .social-team li:first-child a svg {
+    width: 16px;
+    height: 16px;
+    fill: #f4f4fd;
 }
 h1 {
     margin-left: auto;

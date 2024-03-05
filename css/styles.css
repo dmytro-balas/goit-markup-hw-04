@@ -459,13 +459,10 @@ h1 {
     display: flex;
     gap: 16px;   
 }
-.footer-media {
+.footer-media-elem {
     width: 40px;
     height: 40px;
-    
 }
-
-
 
 
 

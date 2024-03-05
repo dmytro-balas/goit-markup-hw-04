@@ -473,10 +473,10 @@ h1 {
     display: flex;
     align-items: baseline;
 }
-.logop {
+.end-footer .footer-logo-subtitle {
     margin-right: 120px;
 }
-.footer-media {
+.end-footer .footer-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -484,17 +484,28 @@ h1 {
     color: #ffffff;
     margin-bottom: 16px;
 }
-.footer-list {
+.end-footer .footer-list {
     display: flex;
     gap: 16px;   
 }
-.footer-media-elem {
+.end-footer .footer-list .footer-media-elem {
     width: 40px;
     height: 40px;
 }
 
-
-
+.footer-media-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-media-icon:hover,
+.footer-media-icon:focus {
+    background-color: #31d0aa;
+}
 
 
 

@@ -385,7 +385,7 @@ ul{
 .bankapp:hover p {
     transform: translateY(0%);
 }
-.card1 {
+.card-port {
     position: relative;
     overflow: hidden;
 }

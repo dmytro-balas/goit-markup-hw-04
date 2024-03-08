@@ -462,10 +462,9 @@ h1 {
 }
 .end-footer {
     display: flex;
-}
-.end-footer div {
     align-items: baseline;
 }
+
 .social-media-container {
     display: flex;
 }
@@ -484,7 +483,7 @@ h1 {
     display: flex;
     gap: 16px;   
 }
-.footer-media-elem:first-child {
+.footer-media-elem {
     width: 40px;
     height: 40px;
 }

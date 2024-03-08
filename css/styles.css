@@ -440,29 +440,7 @@ img {
     justify-content: center;
     gap: 24px;
 }
-.ourteam .social-team li:first-child {
-    width: 40px;
-    height: 40px;
-}
-.ourteam .social-team li:first-child a {
-    width: 100%;
-    height: 100%;
-    background-color: var(--social-link-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.ourteam .social-team li:first-child a:hover,
-.ourteam .social-team li:first-child a:focus {
-    background-color: #404bbf;
-}
 
-.ourteam .social-team li:first-child a svg {
-    width: 16px;
-    height: 16px;
-    fill: #f4f4fd;
-}
 h1 {
     margin-left: auto;
     margin-right: auto;
@@ -506,7 +484,9 @@ h1 {
 .footer-media-icon:focus {
     background-color: #31d0aa;
 }
-
+.img-block {
+    padding: 32px 0;
+}
 
 
 

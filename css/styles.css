@@ -285,8 +285,7 @@ ul{
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    border: 1px solid var(--light-slate);
-        border-radius: 4px
+    
 }
 .uladvant {
     display: flex;
@@ -481,6 +480,7 @@ h1 {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+    margin-top: 0;
 }
 .footer-list {
     display: flex;

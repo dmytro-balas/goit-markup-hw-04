@@ -448,7 +448,7 @@ img {
 .ourteam .team-member>div[class*="container-"] {
     padding: 32px 0;
 }
-.ourteam .social-team {
+.social-team {
     display: flex;
     justify-content: center;
     gap: 24px;

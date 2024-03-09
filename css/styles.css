@@ -361,7 +361,7 @@ ul{
 .social-icon {
     fill: #f4f4fd;
 }
-#icon {
+.icon-social {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -370,8 +370,8 @@ ul{
     align-items: center;
     justify-content: center;
 }
-#icon:hover,
-#icon:focus {
+.icon-social:hover,
+.icon-social:focus {
     background-color: #404bbf;
 }
 .secfoot {

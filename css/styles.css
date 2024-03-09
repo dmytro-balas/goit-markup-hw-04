@@ -285,6 +285,8 @@ ul{
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid var(--light-slate);
+        border-radius: 4px
 }
 .uladvant {
     display: flex;
@@ -438,6 +440,7 @@ img {
 .item {
     width: calc((100% - 72px) / 4);;
     background-color: #ffffff;
+    
 }
 .item h3 {
     margin-bottom: 8px;

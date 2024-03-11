@@ -3,6 +3,9 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 .logo {
     font-family: "Raleway" , sans-serif;
     font-weight: 700;
@@ -27,11 +30,15 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2E2F42;
     padding: 24px 0;
     display: block;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.headstudio .studio {
+    color: #404bbf;
+
 }
 .headstudio:hover,
 .headstudio:focus {
@@ -60,7 +67,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin:0;
+    margin:0 auto;
 }
 .centretext {
     font-size: 56px;
@@ -101,7 +108,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    width: calc((100% - 72px) / 4);
+    margin: 0;
 }
 .advantp {
     font-size: 16px;
@@ -109,6 +116,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 8px;
+    margin: 0;
 }
 .ourteam {
     background-color: #F4F4FD;
@@ -285,6 +293,7 @@ ul{
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid #8E8F99;
     
 }
 .uladvant {
@@ -468,7 +477,6 @@ h1 {
     align-items: baseline;
 }
 .social-media-container {
-    display: flex;
 }
 .footer-logo-subtitle {
     margin-right: 120px;
